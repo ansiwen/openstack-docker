@@ -20,6 +20,8 @@ RUN dnf install -y \
   libffi-devel \
   openssl-devel \
   postgresql-devel \
+  mariadb-devel \
+  libvirt-devel \
   && dnf clean all
 
 RUN pip install -U \
