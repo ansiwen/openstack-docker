@@ -22,6 +22,7 @@ RUN dnf install -y \
   postgresql-devel \
   mariadb-devel \
   libvirt-devel \
+  gettext \
   && dnf clean all
 
 RUN pip install -U \
